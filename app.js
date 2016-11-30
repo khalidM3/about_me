@@ -41,10 +41,10 @@ if (response4 === 'yes' || response4 === 'y') {
   alert('Sorry, it is a yes/no answer');
 }
 
-var response1 = prompt('A hacker has to be in contact with your computer in order to hack it').toLowerCase();
-if (response1 === 'yes' || response1 === 'y') {
+var response5 = prompt('A hacker has to be in contact with your computer in order to hack it').toLowerCase();
+if (response5 === 'yes' || response5 === 'y') {
   alert('Wrong! Hackers can hack your computer from across the globe!' );
-} else if (response1 === 'no' || response1 === 'n'){
+} else if (response5 === 'no' || response5 === 'n'){
   alert('Correct, Hackers can hack your computer from across the globe!');
   console.log('The user got question 1 wrong');
 } else {
