@@ -63,47 +63,25 @@
 //   } else if (res < answer) {
 //     alert('Sorry, your answer is too low');
 //     chances++;
-//   }
+//   };
 // }
 
-
-// if (answer === comp[i]) {
-//   alert('you are correct!');
-//   break;
-// } else {
-//   alert('you are wrong!');
-//
-// }
-// }
-// }
 
 //answer to multiple answer question
-var comp = ['microsoft','google','uber','apple'];
-var chances2 = 0;
-
-var answer2 = prompt('Guess which companies I worked for, you only get 6 chances so good luck!');
-while(chances2 < 6) {
-  for (var i = 0; i < comp.length; i++) {
-    if (answer2 === comp[i]) {
-      alert('You are correct!');
-    } else {
-      alert('You are wrong!');
-    }
-  }
-  chances2 += 1;
-}
-
-// var answer2 = prompt('Guess which companies I worked for, you only get 6 chances so good luck!');
-//
-// for(var i = 0; i < comp.length; i++) {
-//   console.log(comp[i]);
-//   while (chances2 < 6) {
-//     if (answer2 === comp[i]) {
+// var comp = ['pepsi','coke','sprite','mountain dew'];
+// var chances2 = 0;
+// var correctGuess = false;
+// alert('Hello, lets see if you can guess my favorite sodas. There are 4 of them but you only get 6 tries. Good luck!');
+// while(chances2 < 6 && correctGuess === false) {
+//   var response6 = prompt('which soda do you think i like!').toLowerCase();
+//   for (var i = 0; i < comp.length; i++) {
+//     if (response6 === comp[i]) {
 //       alert('You are correct!');
-//       break;
-//     } else {
-//       alert('Sorry try again!');
-//       chances2++;
+//       correctGuess = true;
 //     }
 //   }
+//   if(correctGuess == false) {
+//     alert('Sorry, thats not right. Try again!');
+//   }
+//   chances2 += 1;
 // }
