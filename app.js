@@ -26,22 +26,6 @@ function question2() {
 }
 question2();
 
-<<<<<<< HEAD
-//Ask user to choose a number
-// var answer = 6;
-// var chances = 0;
-//
-// while(res != answer && chances < 4) {
-//   var res = parseInt(prompt('Guess how many times I got hacked, you only get 4 chances so good luck!'));
-//   if (res > answer) {
-//     alert('Sorry, your answer is too high');
-//     chances += 1 ;
-//   } else if (res < answer) {
-//     alert('Sorry, your answer is too low');
-//     chances++;
-//   };
-// }
-=======
 function question3() {
   var response3 = prompt('68% of funds lost as a result of a cyber attack were declared unrecoverable').toLowerCase();
   if (response3 === 'yes' || response3 === 'y') {
@@ -80,23 +64,12 @@ function question5() {
   }
 }
 question5();
->>>>>>> c04827c8c46063041f4db5b2fa80de6d6b95d825
 
 //Ask user to choose a number
 var answer = 6;
 var chances = 0;
 
-<<<<<<< HEAD
-//answer to multiple answer question
-// var comp = ['pepsi','coke','sprite','mountain dew'];
-// var chances2 = 0;
-// var correctGuess = false;
-// alert('Hello, lets see if you can guess my favorite sodas. There are 4 of them but you only get 6 tries. Good luck!');
-// while(chances2 < 6 && correctGuess === false) {
-//   var response6 = prompt('which soda do you think i like!').toLowerCase();
-//   for (var i = 0; i < comp.length; i++) {
-//     if (response6 === comp[i]) {
-=======
+
 function question6() {
   while(res != answer && chances < 4) {
     var res = parseInt(prompt('Guess how many times I got hacked, you only get 4 chances so good luck!'));
@@ -138,19 +111,3 @@ function question7() {
   }
 }
 question7();
-// var answer2 = prompt('Guess which companies I worked for, you only get 6 chances so good luck!');
-//
-// for(var i = 0; i < comp.length; i++) {
-//   console.log(comp[i]);
-//   while (chances2 < 6) {
-//     if (answer2 === comp[i]) {
->>>>>>> c04827c8c46063041f4db5b2fa80de6d6b95d825
-//       alert('You are correct!');
-//       correctGuess = true;
-//     }
-//   }
-//   if(correctGuess == false) {
-//     alert('Sorry, thats not right. Try again!');
-//   }
-//   chances2 += 1;
-// }
