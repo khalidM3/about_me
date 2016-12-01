@@ -81,11 +81,29 @@
 var comp = ['microsoft','google','uber','apple'];
 var chances2 = 0;
 
-while(chances2 < 6 && answer !== comp[i]) {
-  var answer = prompt('Guess which companies I worked for, you only get 6 chances so good luck!');
+var answer2 = prompt('Guess which companies I worked for, you only get 6 chances so good luck!');
+while(chances2 < 6) {
   for (var i = 0; i < comp.length; i++) {
-    console.log(comp[i]);
-    console.log(answer);
-    chances2++;
+    if (answer2 === comp[i]) {
+      alert('You are correct!');
+    } else {
+      alert('You are wrong!');
+    }
   }
+  chances2 += 1;
 }
+
+// var answer2 = prompt('Guess which companies I worked for, you only get 6 chances so good luck!');
+//
+// for(var i = 0; i < comp.length; i++) {
+//   console.log(comp[i]);
+//   while (chances2 < 6) {
+//     if (answer2 === comp[i]) {
+//       alert('You are correct!');
+//       break;
+//     } else {
+//       alert('Sorry try again!');
+//       chances2++;
+//     }
+//   }
+// }

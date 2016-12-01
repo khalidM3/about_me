@@ -1,6 +1,5 @@
 body {
-  text-align: center;
-  background-color: #001a4d;
+  background-color: white;
 
 }
 img {
@@ -11,26 +10,46 @@ img {
   display: inline;
 }
 h1 {
+  text-align: center;
   font-size: 100px;
-  color: rgba(230, 230, 230, 0.5);
+  color: rgb(230, 230, 230);
   border: 0px;
   margin: 0px;
 }
 h2 {
   font-size: 40px;
-  text-align: center;
   color: #999999;
   margin-top: 0px;
 }
 ul {
   text-decoration: none;
 }
-li {
+ul li {
   color: white;
   text-decoration: none;
   font-size: 20px;
+  font-family: sans-serif;
 }
 p {
-  color: white;
+  color: blue;
   font-size: 20px;
+  font-family: sans-serif;
+}
+ol li {
+  font-size: 20px;
+  color: white;
+  font-family: sans-serif;
+  border: solid black 10px;
+}
+.box {
+  border : solid black 3px;
+  height: 500px;
+  width: 300px;
+  margin-left: 0px;
+  background-color: black;
+  opacity: 0.8;
+  margin-right: auto;
+}
+.bio {
+  text-align: center;
 }
